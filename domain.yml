@@ -1,0 +1,75 @@
+intents:
+  - where_to_buy_cartridge_&_cost_of_cartridge
+  - life of cartridge
+  - where_to_use
+  - Gaurantee_details
+  - thanks
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - out_of_scope
+
+entities:
+  - product
+  - life_of_product
+  - where_to_use
+  - gaurantee_details
+
+slots:
+  location:
+    type: text
+
+responses:
+  utter_how_can_i_help:
+  - text: "Hi, I can help you with details of Cartridge Life, Gaurantee & where all can the products can be used"
+
+  utter_details_of_cartridge_cost_&_puchase_link:
+  - text: "The cost of shower filter cartrige is Rs.599 and for washing machine filter is Rs.499"
+  
+  utter_welcome:
+  - text: "You are welcome :) "
+  
+  utter_ask_product_name:
+  - text: "Please share the product details" 
+  
+  utter_life_of_cartridge:
+  - text: "The life of cartridge for shower filter is 6 months & for washing machine is 8 months" 
+  
+  utter_answer_for_where_product_can_be_used:
+  - text: "The product can be used for water where the temperature is between 5-60 Degree Celious. It cannot be used as a filter for drinking water"  
+
+  utter_gaurantee_details:
+  - text: "The Gaurantee of the product is for 2 years for manufacturing defect. There is not gaurantee for Cartridge"  
+
+  utter_sorry_didn't_understand:
+  - text: "Please rephrase your question, I think what you are asking his out of scope for me"  
+
+  utter_sorry_i_don't_know_i_can_help_you_with_this:
+  - text: "Sorry, unfortuntely I do not know how to handle this situation. I can help you with specific questions on product."  
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
