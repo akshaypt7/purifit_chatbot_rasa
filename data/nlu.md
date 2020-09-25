@@ -11,11 +11,10 @@
 - where to buy cartridge of [shower filter](product)?
 - i need to buy cartridge of [washing machine filter](product)?
 
-
 ## intent:life of cartridge
 - what is the [life](life_of_product) of [cartridge](product)?
 - How [long](life_of_product) does the [cartridge](product) last?
-- What is the expected [life](life_of_product) of a [filter](product)? 
+- What is the expected [life](life_of_product) of a [filter](product)?
 - How much is [life](life_of_product) of [filter](product)
 - How long does [shower filter] (product) [last](life_of_product)?
 - what is the life of [washing machine filter](product)
@@ -42,7 +41,6 @@
 - okay thanks
 
 ## intent:out_of_scope
-
 - please help with my ice cream it's dripping
 - no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice - - - cream later
 - i want a non dripping ice cream
@@ -76,7 +74,6 @@
 - who is your favourite robot?
 - can you help me to build a bot
 
-
 ## intent:greet
 - hey
 - hello
@@ -84,6 +81,7 @@
 - good morning
 - good evening
 - hey there
+- Hi
 
 ## intent:goodbye
 - bye
