@@ -1,3 +1,72 @@
+## intent:Discount
+- do you have discount coupons?
+- is there discount for products
+- is there any offer
+- discount
+- any offers
+- can i apply any coupons
+- i am buying from website, is there any coupons
+- will i get a discount if i buy from here
+- will i get a discount
+
+## intent:Where_is_it_made
+- where is the manufactured from
+- where is it from?
+- is the products from china
+- is the products made in India
+- is it made in India
+- is the product imported
+- is the product manufactured here.
+- where is purifit shower filter made
+- where is the filter made
+- where is purifit washing machine filter made
+- where is purifit filter made
+
+## intent:what_all_products_do_you_have
+- what products do you have
+- tell me your products
+- what all products you offer
+- what are the products
+- what all can i buy from here
+- which products do you have
+
+## intent:cost_of_the_products
+- how much does it cost
+- what's the cost of shower filter
+- cost of washing machine filter
+- price of shower head 
+- how much I have to pay for shower filter
+- how much does the product cost
+- how costly is the product
+
+## intent:ingredients_of_products
+- what is the product made out of
+- what are the ingredients of the product
+- what is the media used 
+- what is the filter media used inside
+- what are the filters that are inside
+- Does the product have any certification
+- Is there any certifiaction for shower filter
+- any certification for washing machine filter
+
+## intent:can_the_product_used_for_drinking
+- can it be used for drinking
+- is it safe for drinking
+- can it purifit water for drinking
+- does it purify water
+- can i use shower filter for drinking
+
+## intent:where_can_i_buy_the_product
+- where to buy
+- where to buy products
+- from where can i purchase the products
+- where can i buy
+- where to purchase
+- I want to buy shower filter
+- I want to purchase washing machine filter
+- where to buy washing machine filter
+- where to purchase shower filter from
+
 ## intent:where_to_buy_cartridge_&_cost_of_cartridge
 - from where to buy [cartridge](product)
 - get [cartridge](product)
@@ -11,8 +80,7 @@
 - where to buy cartridge of [shower filter](product)?
 - i need to buy cartridge of [washing machine filter](product)?
 
-
-## intent:life of cartridge
+## intent:life_of_cartridge
 - what is the [life](life_of_product) of [cartridge](product)?
 - How [long](life_of_product) does the [cartridge](product) last?
 - What is the expected [life](life_of_product) of a [filter](product)? 
@@ -84,6 +152,7 @@
 - good morning
 - good evening
 - hey there
+- heyyyy
 
 ## intent:goodbye
 - bye

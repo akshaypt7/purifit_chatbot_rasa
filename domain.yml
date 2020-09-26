@@ -1,6 +1,13 @@
 intents:
+  - Discount
+  - Where_is_it_made
+  - what_all_products_do_you_have
+  - cost_of_the_products
+  - ingredients_of_products
+  - can_the_product_used_for_drinking
+  - where_can_i_buy_the_product
   - where_to_buy_cartridge_&_cost_of_cartridge
-  - life of cartridge
+  - life_of_cartridge
   - where_to_use
   - Gaurantee_details
   - thanks
@@ -24,6 +31,27 @@ slots:
     type: text
 
 responses:
+  utter_discount:
+  - text: "Unfortunately, we do not have offers or coupons at this moment. But you can purchase the products at the lowest price from our website "
+  
+  utter_where_is_it_made:
+  - text: "All the products are assembled in India, we import the media that is needed for filtration from Taiwan & Hong Kong."
+  
+  utter_what_all_products_do_you_have:
+  - text: "We have Shower filters, Washing Machine Filter & Shower Head Filter"
+  
+  utter_cost_of_products:
+  - text: "The cost of Shower Filter is 1999 Rs, Washing Machine filter is 1195 Rs, Black Shower filter is 1499 Rs and Shower Head filter is 1499 Rs"  
+
+  utter_ingredients_of_products:
+  - text: "The products are CE(European Compliant) and ROHS Certified. We use food grade filtration media, the filter layers include: Activated Carbon, Polyphosphate Crystals, Calcium Sulphite & KDF, along with polypropele cotton and stainless steel mesh"
+  
+  utter_can_the_product_used_for_drinking:
+  - text: "The products cannot be used for drinking, eventhough we use food garde filtration media. The product is not designed to purify water but to filter chlorine and reduce effects of hard-water on hair and skin"
+
+  utter_where_can_I_buy_the_product:
+  - text: "You can purchase the products from Website or from Amazon and Flipkart. Buying from the website assures you of any hassles that you face from amazon and flipkart. Also for a limited period of time, we are offering the products at a discounted price"  
+
   utter_how_can_i_help:
   - text: "Hi, I can help you with details of Cartridge Life, Gaurantee & where all can the products can be used"
 
@@ -46,10 +74,10 @@ responses:
   - text: "The Gaurantee of the product is for 2 years for manufacturing defect. There is not gaurantee for Cartridge"  
 
   utter_sorry_didn't_understand:
-  - text: "Please rephrase your question, I think what you are asking his out of scope for me"  
+  - text: "Please rephrase your question, I think what you are asking his out of scope for me. You can contact the customer care at care@purifit.in"  
 
   utter_sorry_i_don't_know_i_can_help_you_with_this:
-  - text: "Sorry, unfortuntely I do not know how to handle this situation. I can help you with specific questions on product."  
+  - text: "Sorry, unfortuntely I do not know how to handle this situation. I can help you with specific questions on product or You can contact the customer care at care@purifit.in."  
 
   utter_greet:
   - text: "Hey! How can I help you?"
