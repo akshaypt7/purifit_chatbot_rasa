@@ -22,7 +22,7 @@
 * inform{"product":"washing machine filter"}  
   - utter_life_of_cartridge
 * thanks
-  - utter_welcome  
+  - utter_welcome
 
 ## happy path ; where all the shower filter can be used
 * greet
@@ -30,7 +30,7 @@
 * where_to_use{"where_to_use":"hot water"}
   - utter_answer_for_where_product_can_be_used
 * thanks
-  - utter_welcome 
+  - utter_welcome
 
 ## happy path : Gaurantee Details
 * greet
@@ -38,7 +38,7 @@
 * Gaurantee_details
   - utter_gaurantee_details
 * thanks
-  - utter_welcome  
+  - utter_welcome
 
 ## path: Out of scope
 * greet
@@ -46,7 +46,7 @@
 * out_of_scope
   - utter_sorry_didn't_understand
 * out_of_scope
-  - utter_sorry_i_don't_know_i_can_help_you_with_this      
+  - utter_sorry_i_don't_know_i_can_help_you_with_this
 
 ## happy path_moodbot
 * greet
@@ -79,3 +79,46 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## New Story
+
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* life of cartridge{"life_of_product":"life","product":"cartridges"}
+    - utter_ask_product_name
+* life of cartridge{"product":"washing machine filter"}
+    - utter_life_of_cartridge
+
+## New Story
+
+* greet
+    - utter_greet
+* life of cartridge{"life_of_product":"life"}
+    - utter_ask_product_name
+* inform{"product":"shower filter"}
+    - utter_life_of_cartridge
+
+## New Story
+
+* greet
+    - utter_greet
+* life of cartridge{"life_of_product":"life","product":"washing machine filter"}
+    - utter_life_of_cartridge
+
+## New Story
+
+* greet
+    - utter_greet
+* life of cartridge{"life_of_product":"life","product":"cartridge"}
+    - utter_ask_product_name
+* inform{"product":"washing machine filter"}
+    - utter_life_of_cartridge
+
+## New Story
+
+* greet
+    - utter_how_can_i_help
+* where_to_use{"product":"washing machine filter"}
+    - utter_answer_for_where_product_can_be_used

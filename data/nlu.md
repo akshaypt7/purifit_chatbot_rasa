@@ -11,14 +11,14 @@
 - where to buy cartridge of [shower filter](product)?
 - i need to buy cartridge of [washing machine filter](product)?
 
-
 ## intent:life of cartridge
 - what is the [life](life_of_product) of [cartridge](product)?
 - How [long](life_of_product) does the [cartridge](product) last?
-- What is the expected [life](life_of_product) of a [filter](product)? 
+- What is the expected [life](life_of_product) of a [filter](product)?
 - How much is [life](life_of_product) of [filter](product)
 - How long does [shower filter] (product) [last](life_of_product)?
 - what is the life of [washing machine filter](product)
+- I need to know the [life](life_of_product) of [cartridges](product)
 
 ## intent:where_to_use
 - can it be used on [taps](where_to_use) in [kitchen](where_to_use)?
@@ -26,6 +26,7 @@
 - Hi, Can we use with [hot](where_to_use) water? (From geyser)
 - Can we use it before our [RO](where_to_use) water [purifier](where_to_use)?
 - Can this be fix on hot and cold water [mixer](where_to_use)?
+- Where can I use the [washing machine filter](product)?
 
 ## intent:Gaurantee_details
 - what is the [guarantee](gaurantee_details) of the product?
@@ -42,7 +43,6 @@
 - okay thanks
 
 ## intent:out_of_scope
-
 - please help with my ice cream it's dripping
 - no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice - - - cream later
 - i want a non dripping ice cream
@@ -75,7 +75,6 @@
 - talk to me
 - who is your favourite robot?
 - can you help me to build a bot
-
 
 ## intent:greet
 - hey
@@ -131,3 +130,7 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:inform
+- [washing machine filter](product)
+- [shower filter](product)
