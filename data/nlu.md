@@ -1,3 +1,99 @@
+## intent:product_details_&_how_it_works_&_working_principle
+- tell me about shower filter
+- how does it work
+- does it help to remove chlorine
+- does it reduce hard water
+- does shower filter converts hardwater into softwater
+- can i use shower filter for 400ppm of hardness
+- can it remove hardness from water
+- can shower filter make tha water soft
+- how does the product work
+- how does the shower filter works
+- tell me about the product
+- tell me about it
+- Does it help in hairfall?
+- What does your shower filter remove?
+- does the shower filter helps in reducing hair fall
+- will using the product improve the quality of my water
+- does shower filter improves the water
+- Will the shower filter help in reducing hairfall?
+- Will the shower filter help in reducing dandruff?
+- Does this filtration benefit the skin?
+- What does your shower filter remove?
+
+## intent:how_do_i_know_it_works
+- how do i know the shower filter works.
+- how can i check if the product works
+- how to test the product
+- how can i test shower filter
+- what changes i can see after using the product
+- how will i know it works
+- i need to check it works, how can i check it
+- how can i test if shower filter reduces hardness
+- how can i know if filter does what it says
+
+## intent:refund,return_&_replacement
+- whats the refund policy
+- can i get refund after 20 days
+- i need refund for my shower filter, i purchased it on 27 aug
+- i need to replace the product.
+- Can i replace my washing machine filter cartridge?
+- Can i replace my shower filter cartridge?
+- whats the return addess, i want to replace the shower head filter
+- i want to return shower head filter
+- the product is not working, i need to return it.
+- you are cheating, the product is not working. I need my refund.
+- there is no change in water, I need refund. 
+- i want to return the product
+- i want to replace the shower head
+- The metallic coating of my shower filter is wearing off.i would like to replace the product
+
+## intent:uses_&_of_wahing_maachine_filter
+- Does the washing machine filter improve the quality of my fabric?
+- how does the washing machine filter works
+- what changes can i see after using washing machine filter
+- how does the washing machine filter protects the washing machine
+- does the washing machine filter fits with LG washing machine
+- does it works with full load washing machine
+- does it works with IFB 2034 model
+- does washing machine filter removes limescale
+- how does it protects the washing machine
+
+## intent:installation_of_washing_filter_&_shower_filter
+- how can it be installed
+- is it easy for installation.
+- how much time it will take for installation
+- how to install shower head 
+- how to install washing machine filter
+- how to connect washing machine filter to washing machine
+- how to connect shower filter to taps
+- does shower filter connect with taps
+- how can i conenct shower filter to taps
+- does it fit with 28 mm taps
+- Is it an easy installation?
+- can it be connected to taps with 25mm diameter
+
+## intent:problems
+- I ordered a shower filter from amazon and received a broken piece....i got it replaced and this time an aerator was missing...i am done with this....i want a refund asap
+- Seems like the shower filter stopped working after two weeks.
+- The metallic coating of my shower filter is wearing off.i would like to replace the product..
+- I dont find much difference in my water quality after using the shower filter.
+- It seems like the pressure in my shower has drastically decreased after fitting the shower filter.what should i do?
+- the product is not working i need my money back
+- I have a problem with shower filter....
+- the washing machine filter is not working properly
+- i have bought a shower filter 2 months before it is not working now. What should I do
+- the product is not working, i need to return the product
+- i have an issue with shower head
+
+## intent:build_material
+- what is it made of
+- is the product steel
+- is it made of steel
+- is the shower filter made of plastic
+- what is the material of shower head filter
+- is it plastic
+
 ## intent:Discount
 - do you have discount coupons?
 - is there discount for products
@@ -29,6 +125,7 @@
 - what are the products
 - what all can i buy from here
 - which products do you have
+- How many types of water filters do you have?
 
 ## intent:cost_of_the_products
 - how much does it cost
@@ -37,7 +134,8 @@
 - price of shower head 
 - how much I have to pay for shower filter
 - how much does the product cost
-- how costly is the product
+- how costly is the produc
+- how much does the shower head cost
 
 ## intent:ingredients_of_products
 - what is the product made out of
@@ -48,6 +146,7 @@
 - Does the product have any certification
 - Is there any certifiaction for shower filter
 - any certification for washing machine filter
+- Does it have vitamin c beads?
 
 ## intent:can_the_product_used_for_drinking
 - can it be used for drinking
@@ -87,6 +186,10 @@
 - How much is [life](life_of_product) of [filter](product)
 - How long does [shower filter] (product) [last](life_of_product)?
 - what is the life of [washing machine filter](product)
+- when to replace cartridges
+- how low does the cartridge last
+- how long does shower filter last
+- whats the life of it
 
 ## intent:where_to_use
 - can it be used on [taps](where_to_use) in [kitchen](where_to_use)?

@@ -1,3 +1,153 @@
+## new_story_1_greet+what_products+life_of_product_+_price_of_cartridge
+* greet
+  - utter_greet
+* what_all_products_do_you_have
+  - utter_what_all_products_do_you_have
+* life_of_cartridge
+  - utter_life_of_cartridge    
+* where_to_buy_cartridge_&_cost_of_cartridge
+  - utter_details_of_cartridge_cost_&_puchase_link
+
+## new_story_2_greet+what_products_+_uses_of_shower_filter_+_Life_of_shower_filter_+_how_i_knowit_works
+* greet
+  - utter_greet
+* what_all_products_do_you_have
+  - utter_what_all_products_do_you_have
+* product_details_&_how_it_works_&_working_principle
+  - utter_product_details_&_how_it_works_&_working_principle 
+* life_of_cartridge
+  - utter_life_of_cartridge   
+* how_do_i_know_it_works
+  - utter_how_do_i_know_it_works
+
+## new story-3, greet + does it helps in hairfall + how to install + where to use
+* greet
+  - utter_greet
+* product_details_&_how_it_works_&_working_principle
+  - utter_product_details_&_how_it_works_&_working_principle
+* installation_of_washing_filter_&_shower_filter
+  - utter_installation_of_washing_filter_&_shower_filter
+* where_to_use
+  - utter_answer_for_where_product_can_be_used   
+
+## new story-4, greet + can it reduce hairfall + life of shower filter + guranutee + where to buy
+* greet
+  - utter_greet
+* product_details_&_how_it_works_&_working_principle
+  - utter_product_details_&_how_it_works_&_working_principle
+* life_of_cartridge
+  - utter_life_of_cartridge
+* Gaurantee_details
+  - utter_gaurantee_details
+* where_can_i_buy_the_product
+  - utter_where_can_i_buy_the_product
+
+## new story-5, Refund + built of + where is it made + where to buy + how long it last
+* refund,return_&_replacement
+  - utter_refund,return_&_replacement
+* build_material
+  - utter_build_material
+* Where_is_it_made
+  - utter_where_is_it_made
+* where_can_i_buy_the_product
+  - utter_where_can_i_buy_the_product
+* life_of_cartridge
+  - utter_life_of_cartridge
+
+## story-6, discount + cost of products + uses of W.M + where is it made + Gurantee + where to use
+* Discount
+  - utter_discount
+* cost_of_the_products
+  - utter_cost_of_products
+* uses_&_of_wsahing_maachine_filter
+  - utter_uses_&_of_washing_maachine_filter
+* Where_is_it_made
+  - utter_where_is_it_made    
+* Gaurantee_details
+  - utter_gaurantee_details      
+* where_to_use
+  - utter_answer_for_where_product_can_be_used
+
+## story-7, guarantee + return & refund + how do i know it works + discount + where to buy
+* Gaurantee_details
+  - utter_gaurantee_details
+* refund,return_&_replacement
+  - utter_refund,return_&_replacement
+* how_do_i_know_it_works
+  - utter_how_do_i_know_it_works
+* Discount
+  - utter_discount
+* where_to_buy_cartridge_&_cost_of_cartridge
+  - utter_details_of_cartridge_cost_&_puchase_link       
+
+## story-8, Installation + refund + drinking + where to buy cartridge + ingredients + where is it made
+* installation_of_washing_filter_&_shower_filter
+  - utter_installation_of_washing_filter_&_shower_filter
+* refund,return_&_replacement
+  - utter_refund,return_&_replacement
+* can_the_product_used_for_drinking
+  - utter_can_the_product_used_for_drinking
+* where_to_buy_cartridge_&_cost_of_cartridge
+  - utter_details_of_cartridge_cost_&_puchase_link  
+* ingredients_of_products
+  - utter_ingredients_of_products
+* Where_is_it_made          
+  - utter_where_is_it_made
+
+## story-9, installation + wehre to use + drinking + life + gaurantee
+* installation_of_washing_filter_&_shower_filter
+  - utter_installation_of_washing_filter_&_shower_filter
+* where_to_use
+  - utter_answer_for_where_product_can_be_used
+* can_the_product_used_for_drinking
+  - utter_can_the_product_used_for_drinking    
+* life_of_cartridge
+  - utter_life_of_cartridge  
+* Gaurantee_details
+  - utter_gaurantee_details  
+
+## happy_path_product_details_&_how_it_works_&_working_principle
+* greet
+  - utter_greet
+* product_details_&_how_it_works_&_working_principle
+  - utter_product_details_&_how_it_works_&_working_principle
+
+## happy_path_how_do_i_know_it_works
+* greet
+  - utter_greet
+* how_do_i_know_it_works
+  - utter_how_do_i_know_it_works
+
+## happy_refund,return_&_replacement
+* greet
+  - utter_greet
+* refund,return_&_replacement
+  - utter_refund,return_&_replacement
+
+## happy_uses_&_of_wahing_maachine_filter
+* greet
+  - utter_greet
+* uses_&_of_washing_maachine_filter
+  - utter_uses_&_of_washing_maachine_filter
+
+## happy_path_installation_of_washing_filter_&_shower_filter
+* greet
+  - utter_greet
+* installation_of_washing_filter_&_shower_filter
+  - utter_installation_of_washing_filter_&_shower_filter 
+
+## happy_problems
+* greet
+  - utter_greet
+* problems
+  - utter_problems  
+
+## happy_path_discount
+* greet
+  - utter_greet
+* build_material
+  - utter_build_material 
+
 ## happy_path_discount
 * greet
   - utter_greet
@@ -40,7 +190,7 @@
 * greet
   - utter_greet
 * where_can_i_buy_the_product
-  - utter_where_can_I_buy_the_product
+  - utter_where_can_i_buy_the_product
 
 
 ## happy_path_cartridge_cost_&_purchase_link
