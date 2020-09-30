@@ -8,6 +8,8 @@
 - i am buying from website, is there any coupons
 - will i get a discount if i buy from here
 - will i get a discount
+- Can i get any discount for the prodcuts?
+- can i get a discount
 
 ## intent:Where_is_it_made
 - where is the manufactured from
@@ -21,6 +23,9 @@
 - where is the filter made
 - where is purifit washing machine filter made
 - where is purifit filter made
+- where is the [shower filter](product) made
+- where is the product made from
+- where is the purifit filter made from?
 
 ## intent:what_all_products_do_you_have
 - what products do you have
@@ -29,20 +34,25 @@
 - what are the products
 - what all can i buy from here
 - which products do you have
+- what all products you have
+- How many types of shower filters do you have?
+- How many types of water filters do you have?
 
 ## intent:cost_of_the_products
 - how much does it cost
 - what's the cost of shower filter
 - cost of washing machine filter
-- price of shower head 
+- price of shower head
 - how much I have to pay for shower filter
 - how much does the product cost
 - how costly is the product
+- what's the price
+- whats the price of shower filter?
 
 ## intent:ingredients_of_products
 - what is the product made out of
 - what are the ingredients of the product
-- what is the media used 
+- what is the media used
 - what is the filter media used inside
 - what are the filters that are inside
 - Does the product have any certification
@@ -66,6 +76,7 @@
 - I want to purchase washing machine filter
 - where to buy washing machine filter
 - where to purchase shower filter from
+- where can i buy one
 
 ## intent:where_to_buy_cartridge_&_cost_of_cartridge
 - from where to buy [cartridge](product)
@@ -83,7 +94,7 @@
 ## intent:life_of_cartridge
 - what is the [life](life_of_product) of [cartridge](product)?
 - How [long](life_of_product) does the [cartridge](product) last?
-- What is the expected [life](life_of_product) of a [filter](product)? 
+- What is the expected [life](life_of_product) of a [filter](product)?
 - How much is [life](life_of_product) of [filter](product)
 - How long does [shower filter] (product) [last](life_of_product)?
 - what is the life of [washing machine filter](product)
@@ -103,6 +114,8 @@
 - I want to register for [guarantee](gaurantee_details)
 - do you have [warantee](gaurantee_details) for cartridge?
 - [warantee](gaurantee_details) details share
+- what warranty do you offer
+- what warranty do you offe
 
 ## intent:thanks
 - thankyou
@@ -110,7 +123,6 @@
 - okay thanks
 
 ## intent:out_of_scope
-
 - please help with my ice cream it's dripping
 - no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice - - - cream later
 - i want a non dripping ice cream
@@ -143,7 +155,6 @@
 - talk to me
 - who is your favourite robot?
 - can you help me to build a bot
-
 
 ## intent:greet
 - hey

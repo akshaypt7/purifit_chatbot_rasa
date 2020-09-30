@@ -16,7 +16,7 @@
 * what_all_products_do_you_have
   - utter_what_all_products_do_you_have
 * thanks
-  - utter_welcome        
+  - utter_welcome
 
 ## happy_path_cost of products
 * greet
@@ -28,7 +28,7 @@
 * greet
   - utter_greet
 * ingredients_of_products
-  - utter_ingredients_of_products 
+  - utter_ingredients_of_products
 
 ## happy_path_can the product used for drinking
 * greet
@@ -41,7 +41,6 @@
   - utter_greet
 * where_can_i_buy_the_product
   - utter_where_can_I_buy_the_product
-
 
 ## happy_path_cartridge_cost_&_purchase_link
 * greet
@@ -67,7 +66,7 @@
 * inform{"product":"washing machine filter"}  
   - utter_life_of_cartridge
 * thanks
-  - utter_welcome  
+  - utter_welcome
 
 ## happy path ; where all the shower filter can be used
 * greet
@@ -75,7 +74,7 @@
 * where_to_use{"where_to_use":"hot water"}
   - utter_answer_for_where_product_can_be_used
 * thanks
-  - utter_welcome 
+  - utter_welcome
 
 ## happy path : Gaurantee Details
 * greet
@@ -83,7 +82,7 @@
 * Gaurantee_details
   - utter_gaurantee_details
 * thanks
-  - utter_welcome  
+  - utter_welcome
 
 ## path: Out of scope
 * greet
@@ -91,7 +90,7 @@
 * out_of_scope
   - utter_sorry_didn't_understand
 * out_of_scope
-  - utter_sorry_i_don't_know_i_can_help_you_with_this      
+  - utter_sorry_i_don't_know_i_can_help_you_with_this
 
 ## happy path_moodbot
 * greet
@@ -124,3 +123,22 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## New Story
+
+* what_all_products_do_you_have
+    - utter_gaurantee_details
+
+## New Story
+
+* greet
+    - utter_greet
+* Gaurantee_details
+    - utter_gaurantee_details
+
+## Story from conversation with 1a8eef4f74d143fdb7f060657c329cff on September 28th 2020
+
+* greet
+    - utter_greet
+* Gaurantee_details
+    - utter_gaurantee_details
