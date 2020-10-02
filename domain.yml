@@ -109,7 +109,14 @@ responses:
 
   utter_greet:
   - text: "Hi, Good day:)!! I am here to help you. Let me know if you have any concerns regarding, Cartridge Life, Gaurantee details, Installation, order related problems, product details, refund and returns & product usage."
-
+    buttons:
+    - title: "How it works"
+      payload: "utter_product_details_&_how_it_works_&_working_principle"
+    - title: "Cartridge Life"
+      payload: "utter_life_of_cartridge"      
+    - title: "Installation"
+      payload: "utter_installation_of_washing_filter_&_shower_filter"      
+    
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
