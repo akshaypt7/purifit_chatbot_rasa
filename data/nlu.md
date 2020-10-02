@@ -19,7 +19,11 @@
 - Will the shower filter help in reducing hairfall?
 - Will the shower filter help in reducing dandruff?
 - Does this filtration benefit the skin?
-- What does your shower filter remove?
+- tell me about your shower filter
+- product details
+- product usage
+- I want to know about a product detail.....its about the shower fikter
+- What are the main benefits of using these shower filters?
 
 ## intent:how_do_i_know_it_works
 - how do i know the shower filter works.
@@ -31,22 +35,24 @@
 - i need to check it works, how can i check it
 - how can i test if shower filter reduces hardness
 - how can i know if filter does what it says
+- how do i know the shower filter works
 
 ## intent:refund,return_&_replacement
 - whats the refund policy
 - can i get refund after 20 days
 - i need refund for my shower filter, i purchased it on 27 aug
 - i need to replace the product.
-- Can i replace my washing machine filter cartridge?
-- Can i replace my shower filter cartridge?
+- Can i replace my [washing machine](product) filter [cartridge](product)?
+- Can i replace my shower filter [cartridge](product)?
 - whats the return addess, i want to replace the shower head filter
 - i want to return shower head filter
 - the product is not working, i need to return it.
 - you are cheating, the product is not working. I need my refund.
-- there is no change in water, I need refund. 
+- there is no change in water, I need refund.
 - i want to return the product
 - i want to replace the shower head
 - The metallic coating of my shower filter is wearing off.i would like to replace the product
+- do you offer refunds
 
 ## intent:uses_&_of_wahing_maachine_filter
 - Does the washing machine filter improve the quality of my fabric?
@@ -63,7 +69,7 @@
 - how can it be installed
 - is it easy for installation.
 - how much time it will take for installation
-- how to install shower head 
+- how to install shower head
 - how to install washing machine filter
 - how to connect washing machine filter to washing machine
 - how to connect shower filter to taps
@@ -72,6 +78,7 @@
 - does it fit with 28 mm taps
 - Is it an easy installation?
 - can it be connected to taps with 25mm diameter
+- how to install shower filter
 
 ## intent:problems
 - I ordered a shower filter from amazon and received a broken piece....i got it replaced and this time an aerator was missing...i am done with this....i want a refund asap
@@ -85,6 +92,7 @@
 - i have bought a shower filter 2 months before it is not working now. What should I do
 - the product is not working, i need to return the product
 - i have an issue with shower head
+- Seems like the shower filter stopped working after two weeks...
 
 ## intent:build_material
 - what is it made of
@@ -93,6 +101,7 @@
 - is the shower filter made of plastic
 - what is the material of shower head filter
 - is it plastic
+- What is the material of the shower filter?
 
 ## intent:Discount
 - do you have discount coupons?
@@ -104,6 +113,7 @@
 - i am buying from website, is there any coupons
 - will i get a discount if i buy from here
 - will i get a discount
+- can i get a discount
 
 ## intent:Where_is_it_made
 - where is the manufactured from
@@ -126,12 +136,14 @@
 - what all can i buy from here
 - which products do you have
 - How many types of water filters do you have?
+- what products do you offer
+- What products you have?
 
 ## intent:cost_of_the_products
 - how much does it cost
 - what's the cost of shower filter
 - cost of washing machine filter
-- price of shower head 
+- price of shower head
 - how much I have to pay for shower filter
 - how much does the product cost
 - how costly is the produc
@@ -140,7 +152,7 @@
 ## intent:ingredients_of_products
 - what is the product made out of
 - what are the ingredients of the product
-- what is the media used 
+- what is the media used
 - what is the filter media used inside
 - what are the filters that are inside
 - Does the product have any certification
@@ -165,6 +177,8 @@
 - I want to purchase washing machine filter
 - where to buy washing machine filter
 - where to purchase shower filter from
+- where can i buy one
+- i want shower filter
 
 ## intent:where_to_buy_cartridge_&_cost_of_cartridge
 - from where to buy [cartridge](product)
@@ -182,7 +196,7 @@
 ## intent:life_of_cartridge
 - what is the [life](life_of_product) of [cartridge](product)?
 - How [long](life_of_product) does the [cartridge](product) last?
-- What is the expected [life](life_of_product) of a [filter](product)? 
+- What is the expected [life](life_of_product) of a [filter](product)?
 - How much is [life](life_of_product) of [filter](product)
 - How long does [shower filter] (product) [last](life_of_product)?
 - what is the life of [washing machine filter](product)
@@ -190,6 +204,10 @@
 - how low does the cartridge last
 - how long does shower filter last
 - whats the life of it
+- How long does it [last](life_of_product)?
+- [Cartridge](product) [life](life_of_product)
+- What is the [life](life_of_product) of shower filter?
+- how much does the replacement of shower filter cost
 
 ## intent:where_to_use
 - can it be used on [taps](where_to_use) in [kitchen](where_to_use)?
@@ -197,6 +215,7 @@
 - Hi, Can we use with [hot](where_to_use) water? (From geyser)
 - Can we use it before our [RO](where_to_use) water [purifier](where_to_use)?
 - Can this be fix on hot and cold water [mixer](where_to_use)?
+- does shower filter works with hot water?
 
 ## intent:Gaurantee_details
 - what is the [guarantee](gaurantee_details) of the product?
@@ -206,6 +225,8 @@
 - I want to register for [guarantee](gaurantee_details)
 - do you have [warantee](gaurantee_details) for cartridge?
 - [warantee](gaurantee_details) details share
+- what warranty do you offe
+- what warranty do you offer
 
 ## intent:thanks
 - thankyou
@@ -213,7 +234,6 @@
 - okay thanks
 
 ## intent:out_of_scope
-
 - please help with my ice cream it's dripping
 - no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice - - - cream later
 - i want a non dripping ice cream
@@ -247,7 +267,6 @@
 - who is your favourite robot?
 - can you help me to build a bot
 
-
 ## intent:greet
 - hey
 - hello
@@ -256,12 +275,14 @@
 - good evening
 - hey there
 - heyyyy
+- Hai
 
 ## intent:goodbye
 - bye
 - goodbye
 - see you around
 - see you later
+- Bubyee
 
 ## intent:affirm
 - yes
