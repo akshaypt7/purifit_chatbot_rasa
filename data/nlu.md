@@ -2,7 +2,7 @@
 - tell me about shower filter
 - how does it work
 - does it help to remove chlorine
-- does it reduce hard water
+- does it reduce hard water 
 - does shower filter converts hardwater into softwater
 - can i use shower filter for 400ppm of hardness
 - can it remove hardness from water
@@ -34,6 +34,7 @@
 
 ## intent:refund,return_&_replacement
 - whats the refund policy
+- Refund & Return Policy
 - can i get refund after 20 days
 - i need refund for my shower filter, i purchased it on 27 aug
 - i need to replace the product.
@@ -64,6 +65,7 @@
 - is it easy for installation.
 - how much time it will take for installation
 - how to install shower head 
+- Installation Procedure
 - how to install washing machine filter
 - how to connect washing machine filter to washing machine
 - how to connect shower filter to taps

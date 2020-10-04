@@ -82,6 +82,27 @@ responses:
 
   utter_how_can_i_help:
   - text: "Hi, I am here to help you. Let me know if you have any concerns regarding, Cartridge Life, Gaurantee details, Installation, order related problems, product details, refund and returns, & product usage."
+    buttons:
+    - title: "How does Shower Filter & Shower Head Filter works"
+      payload: "How does Shower Filter & Shower Head works"
+    - title: "Cartridge Life"
+      payload: "Life of Cartridge"      
+    - title: "Installation"
+      payload: "Installation Procedure"  
+    - title: "Refund, Return & Replacement"
+      payload: "Refund & Return Policy"
+    - title: "Washing Machine Filter"
+      payload: "how does the washing machine filter works"      
+    - title: "Order Issues"
+      payload: "Issue with product"        
+    - title: "Where is it Made from"
+      payload: "Manufacture details"
+    - title: "What are the Product Available"
+      payload: "Products that we currently sell"      
+    - title: "Cost of Products"
+      payload: "Cost of Products"
+    - title: "Gaurantee Details"
+      payload: "Details of Gaurantee"      
 
   utter_details_of_cartridge_cost_&_puchase_link:
   - text: "The cost of shower filter cartrige is Rs.599 and for washing machine filter is Rs.499. You can purchase the product from amazon, flipkart or from Our website"
@@ -108,14 +129,28 @@ responses:
   - text: "Sorry, unfortuntely I do not know how to handle this situation. I can help you with specific questions on product or You can contact the customer care at care@purifit.in."  
 
   utter_greet:
-  - text: "Hi, Good day:)!! I am here to help you. Let me know if you have any concerns regarding, Cartridge Life, Gaurantee details, Installation, order related problems, product details, refund and returns & product usage."
+  - text: "Hi, I am here to help you. Let me know if you have any concerns regarding, Cartridge Life, Gaurantee details, Installation, order related problems, product details, refund and returns, & product usage."
     buttons:
-    - title: "How it works"
-      payload: "utter_product_details_&_how_it_works_&_working_principle"
+    - title: "How does Shower Filter & Shower Head Filter works"
+      payload: "How does Shower Filter & Shower Head works"
     - title: "Cartridge Life"
-      payload: "utter_life_of_cartridge"      
+      payload: "Life of Cartridge"      
     - title: "Installation"
-      payload: "utter_installation_of_washing_filter_&_shower_filter"      
+      payload: "Installation Procedure"  
+    - title: "Refund, Return & Replacement"
+      payload: "Refund & Return Policy"
+    - title: "Washing Machine Filter"
+      payload: "how does the washing machine filter works"      
+    - title: "Order Issues"
+      payload: "Issue with product"        
+    - title: "Where is it Made from"
+      payload: "Manufacture details"
+    - title: "What are the Product Available"
+      payload: "Products that we currently sell"      
+    - title: "Cost of Products"
+      payload: "Cost of Products"
+    - title: "Gaurantee Details"
+      payload: "Details of Gaurantee"     
     
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
