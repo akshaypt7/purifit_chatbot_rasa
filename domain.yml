@@ -1,173 +1,190 @@
-intents:
-  - product_details_&_how_it_works_&_working_principle
-  - how_do_i_know_it_works
-  - refund,return_&_replacement
-  - uses_&_of_wsahing_maachine_filter
-  - installation_of_washing_filter_&_shower_filter
-  - problems
-  - build_material
-  - Discount
-  - Where_is_it_made
-  - what_all_products_do_you_have
-  - cost_of_the_products
-  - ingredients_of_products
-  - can_the_product_used_for_drinking
-  - where_can_i_buy_the_product
-  - where_to_buy_cartridge_&_cost_of_cartridge
-  - life_of_cartridge
-  - where_to_use
-  - Gaurantee_details
-  - thanks
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - out_of_scope
-
-entities:
-  - product
-  - life_of_product
-  - where_to_use
-  - gaurantee_details
-
-slots:
-  location:
-    type: text
-
-responses:
-  utter_product_details_&_how_it_works_&_working_principle:
-  - text: "The Shower Filter & Shower Head Filter is used to remove Chlorine and reduce the effects of hardwater on hair and skin. The layers inside the filter reacts with Calcium and Magnesium salts, making it soluable in water. This make sures that these salts wont get attached to your hair and skin and is washed away along with the water. This give you a much better bathing experience. Please Note: There are many reasons for Hairfall and Dandruff, such as environment, lack of vitamins and nutrients, heredity etc. Purifit Filter helps to improve the quality of the water you bath in"
-
-  utter_how_do_i_know_it_works:
-  - text: " Once you start using the shower filter, you will notice a reduction in the limescale deposit. The limescale is the result of hard-water salts. The reduction in limescale is the result of the layers reacting with hard-water. Also you can check our Youtube Channel (purifit), where we show how the chlorine is removed from the water. We use Orthodoline(OTO) to test it. Youtube Channel - https://www.youtube.com/channel/UCZJGJcFYqd03LnOzSUBDqjA"
-
-  utter_refund,return_&_replacement:
-  - text: "You can return the product for refund or replacement upon 10 days of purchase. You are required to sent the product to us. If you observe any manufacturing defect after 10 months, you are still eligible to return the product. For more details contact care@purifit.in "  
-
-  utter_uses_&_of_washing_maachine_filter:
-  - text: "The washing machine filter protects the washing machine by removing the limescales. We use polyphosphate crystals to reduce the limescale in the washing machine, limescale is responsible for the breakage of washing machine and also reduces the fabric quality of the cloths "  
-
-  utter_installation_of_washing_filter_&_shower_filter:
-  - text: "The installation of shower filter and washing machine filter takes only 3 minutes. We have uploaded the installtion videos on our Youtube Channel and also included in the user manual. Youtube channel - https://www.youtube.com/channel/UCZJGJcFYqd03LnOzSUBDqjA"  
-
-  utter_problems:
-  - text: "We really regret the inconvience caused to you. We will try our best to solve this issue for you. Please share your concern to this emailid: care@purifit.in . If applicable include your order details as well"  
-
-  utter_build_material:
-  - text: " The products are all build of premium quality ABS plastic with Chrome Finish (not applicable for washing machine)."  
-
-  utter_discount:
-  - text: "Unfortunately, we do not have offers or coupons at this moment. But you can purchase the products at the lowest price from our website "
-  
-  utter_where_is_it_made:
-  - text: "All the products are assembled in India, we import the media that is needed for filtration from Taiwan & Hong Kong."
-  
-  utter_what_all_products_do_you_have:
-  - text: "We have Shower filters, Washing Machine Filter & Shower Head Filter"
-  
-  utter_cost_of_products:
-  - text: "The cost of Shower Filter is 1999 Rs, Washing Machine filter is 1195 Rs, Black Shower filter is 1499 Rs and Shower Head filter is 1499 Rs"  
-
-  utter_ingredients_of_products:
-  - text: "The products are CE(European Compliant) and ROHS Certified. We use food grade filtration media, the filter layers include: Activated Carbon, Polyphosphate Crystals, Calcium Sulphite & KDF, along with polypropele cotton and stainless steel mesh"
-  
-  utter_can_the_product_used_for_drinking:
-  - text: "The products cannot be used for drinking, eventhough we use food garde filtration media. The product is not designed to purify water but to filter chlorine and reduce effects of hard-water on hair and skin"
-
-  utter_where_can_i_buy_the_product:
-  - text: "You can purchase the products from Website or from Amazon and Flipkart. Buying from the website assures you of any hassles that you face from amazon and flipkart. Also for a limited period of time, we are offering the products at a discounted price"  
-
-  utter_how_can_i_help:
-  - text: "Hi, I am here to help you. Let me know if you have any concerns regarding, Cartridge Life, Gaurantee details, Installation, order related problems, product details, refund and returns, & product usage."
-    buttons:
-    - title: "How does Shower Filter & Shower Head Filter works"
-      payload: "How does Shower Filter & Shower Head works"
-    - title: "Cartridge Life"
-      payload: "Life of Cartridge"      
-    - title: "Installation"
-      payload: "Installation Procedure"  
-    - title: "Refund, Return & Replacement"
-      payload: "Refund & Return Policy"
-    - title: "Washing Machine Filter"
-      payload: "how does the washing machine filter works"      
-    - title: "Order Issues"
-      payload: "Issue with product"        
-    - title: "Where is it Made from"
-      payload: "Manufacture details"
-    - title: "What are the Product Available"
-      payload: "Products that we currently sell"      
-    - title: "Cost of Products"
-      payload: "Cost of Products"
-    - title: "Gaurantee Details"
-      payload: "Details of Gaurantee"      
-
-  utter_details_of_cartridge_cost_&_puchase_link:
-  - text: "The cost of shower filter cartrige is Rs.599 and for washing machine filter is Rs.499. You can purchase the product from amazon, flipkart or from Our website"
-  
-  utter_welcome:
-  - text: "You are welcome :) "
-  
-  utter_ask_product_name:
-  - text: "Please share the product details" 
-  
-  utter_life_of_cartridge:
-  - text: "The life of cartridge for shower filter is 6 months & for washing machine is 8 months. You can purchase the product from amazon, flipkart or from Our website" 
-  
-  utter_answer_for_where_product_can_be_used:
-  - text: "The product can be used for water where the temperature is between 5-60 Degree Celious. It cannot be used as a filter for drinking water"  
-
-  utter_gaurantee_details:
-  - text: "The Gaurantee of the product is for 2 years for manufacturing defect. There is not gaurantee for Cartridge"  
-
-  utter_sorry_didn't_understand:
-  - text: "Please rephrase your question, I think what you are asking his out of scope for me. You can contact the customer care at care@purifit.in"  
-
-  utter_sorry_i_don't_know_i_can_help_you_with_this:
-  - text: "Sorry, unfortuntely I do not know how to handle this situation. I can help you with specific questions on product or You can contact the customer care at care@purifit.in."  
-
-  utter_greet:
-  - text: "Hi, I am here to help you. Let me know if you have any concerns regarding, Cartridge Life, Gaurantee details, Installation, order related problems, product details, refund and returns, & product usage."
-    buttons:
-    - title: "How does Shower Filter & Shower Head Filter works"
-      payload: "How does Shower Filter & Shower Head works"
-    - title: "Cartridge Life"
-      payload: "Life of Cartridge"      
-    - title: "Installation"
-      payload: "Installation Procedure"  
-    - title: "Refund, Return & Replacement"
-      payload: "Refund & Return Policy"
-    - title: "Washing Machine Filter"
-      payload: "how does the washing machine filter works"      
-    - title: "Order Issues"
-      payload: "Issue with product"        
-    - title: "Where is it Made from"
-      payload: "Manufacture details"
-    - title: "What are the Product Available"
-      payload: "Products that we currently sell"      
-    - title: "Cost of Products"
-      payload: "Cost of Products"
-    - title: "Gaurantee Details"
-      payload: "Details of Gaurantee"     
-    
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- product_details_&_how_it_works_&_working_principle
+- how_do_i_know_it_works
+- refund,return_&_replacement
+- uses_&_of_wsahing_maachine_filter
+- installation_of_washing_filter_&_shower_filter
+- problems
+- build_material
+- Discount
+- Where_is_it_made
+- what_all_products_do_you_have
+- cost_of_the_products
+- ingredients_of_products
+- can_the_product_used_for_drinking
+- where_can_i_buy_the_product
+- where_to_buy_cartridge_&_cost_of_cartridge
+- life_of_cartridge
+- where_to_use
+- Gaurantee_details
+- thanks
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- out_of_scope
+- inform
+- uses_&_of_washing_maachine_filter
+- uses_&_of_wahing_maachine_filter
+entities:
+- product
+- life_of_product
+- where_to_use
+- gaurantee_details
+slots:
+  location:
+    type: text
+responses:
+  utter_product_details_&_how_it_works_&_working_principle:
+  - text: 'The Shower Filter & Shower Head Filter is used to remove Chlorine and reduce
+      the effects of hardwater on hair and skin. The layers inside the filter reacts
+      with Calcium and Magnesium salts, making it soluable in water. This make sures
+      that these salts wont get attached to your hair and skin and is washed away
+      along with the water. This give you a much better bathing experience. Please
+      Note: There are many reasons for Hairfall and Dandruff, such as environment,
+      lack of vitamins and nutrients, heredity etc. Purifit Filter helps to improve
+      the quality of the water you bath in'
+  utter_how_do_i_know_it_works:
+  - text: ' Once you start using the shower filter, you will notice a reduction in
+      the limescale deposit. The limescale is the result of hard-water salts. The
+      reduction in limescale is the result of the layers reacting with hard-water.
+      Also you can check our Youtube Channel (purifit), where we show how the chlorine
+      is removed from the water. We use Orthodoline(OTO) to test it. Youtube Channel
+      - https://www.youtube.com/channel/UCZJGJcFYqd03LnOzSUBDqjA'
+  utter_refund,return_&_replacement:
+  - text: 'You can return the product for refund or replacement upon 10 days of purchase.
+      You are required to sent the product to us. If you observe any manufacturing
+      defect after 10 months, you are still eligible to return the product. For more
+      details contact care@purifit.in '
+  utter_uses_&_of_washing_maachine_filter:
+  - text: 'The washing machine filter protects the washing machine by removing the
+      limescales. We use polyphosphate crystals to reduce the limescale in the washing
+      machine, limescale is responsible for the breakage of washing machine and also
+      reduces the fabric quality of the cloths '
+  utter_installation_of_washing_filter_&_shower_filter:
+  - text: The installation of shower filter and washing machine filter takes only
+      3 minutes. We have uploaded the installtion videos on our Youtube Channel and
+      also included in the user manual. Youtube channel - https://www.youtube.com/channel/UCZJGJcFYqd03LnOzSUBDqjA
+  utter_problems:
+  - text: 'We really regret the inconvience caused to you. We will try our best to
+      solve this issue for you. Please share your concern to this emailid: care@purifit.in
+      . If applicable include your order details as well'
+  utter_build_material:
+  - text: ' The products are all build of premium quality ABS plastic with Chrome
+      Finish (not applicable for washing machine).'
+  utter_discount:
+  - text: 'Unfortunately, we do not have offers or coupons at this moment. But you
+      can purchase the products at the lowest price from our website '
+  utter_where_is_it_made:
+  - text: All the products are assembled in India, we import the media that is needed
+      for filtration from Taiwan & Hong Kong.
+  utter_what_all_products_do_you_have:
+  - text: We have Shower filters, Washing Machine Filter & Shower Head Filter
+  utter_cost_of_products:
+  - text: The cost of Shower Filter is 1999 Rs, Washing Machine filter is 1195 Rs,
+      Black Shower filter is 1499 Rs and Shower Head filter is 1499 Rs
+  utter_ingredients_of_products:
+  - text: 'The products are CE(European Compliant) and ROHS Certified. We use food
+      grade filtration media, the filter layers include: Activated Carbon, Polyphosphate
+      Crystals, Calcium Sulphite & KDF, along with polypropele cotton and stainless
+      steel mesh'
+  utter_can_the_product_used_for_drinking:
+  - text: The products cannot be used for drinking, eventhough we use food garde filtration
+      media. The product is not designed to purify water but to filter chlorine and
+      reduce effects of hard-water on hair and skin
+  utter_where_can_i_buy_the_product:
+  - text: You can purchase the products from Website or from Amazon and Flipkart.
+      Buying from the website assures you of any hassles that you face from amazon
+      and flipkart. Also for a limited period of time, we are offering the products
+      at a discounted price
+  utter_how_can_i_help:
+  - buttons:
+    - payload: How does Shower Filter & Shower Head works
+      title: How does Shower Filter & Shower Head Filter works
+    - payload: Life of Cartridge
+      title: Cartridge Life
+    - payload: Installation Procedure
+      title: Installation
+    - payload: Refund & Return Policy
+      title: Refund, Return & Replacement
+    - payload: how does the washing machine filter works
+      title: Washing Machine Filter
+    - payload: Issue with product
+      title: Order Issues
+    - payload: Manufacture details
+      title: Where is it Made from
+    - payload: Products that we currently sell
+      title: What are the Product Available
+    - payload: Cost of Products
+      title: Cost of Products
+    - payload: Details of Gaurantee
+      title: Gaurantee Details
+    text: Hi, I am here to help you. Let me know if you have any concerns regarding,
+      Cartridge Life, Gaurantee details, Installation, order related problems, product
+      details, refund and returns, & product usage.
+  utter_details_of_cartridge_cost_&_puchase_link:
+  - text: The cost of shower filter cartrige is Rs.599 and for washing machine filter
+      is Rs.499. You can purchase the product from amazon, flipkart or from Our website
+  utter_welcome:
+  - text: 'You are welcome :) '
+  utter_ask_product_name:
+  - text: Please share the product details
+  utter_life_of_cartridge:
+  - text: The life of cartridge for shower filter is 6 months & for washing machine
+      is 8 months. You can purchase the product from amazon, flipkart or from Our
+      website
+  utter_answer_for_where_product_can_be_used:
+  - text: The product can be used for water where the temperature is between 5-60
+      Degree Celious. It cannot be used as a filter for drinking water
+  utter_gaurantee_details:
+  - text: The Gaurantee of the product is for 2 years for manufacturing defect. There
+      is not gaurantee for Cartridge
+  utter_sorry_didn't_understand:
+  - text: Please rephrase your question, I think what you are asking his out of scope
+      for me. You can contact the customer care at care@purifit.in
+  utter_sorry_i_don't_know_i_can_help_you_with_this:
+  - text: Sorry, unfortuntely I do not know how to handle this situation. I can help
+      you with specific questions on product or You can contact the customer care
+      at care@purifit.in.
+  utter_greet:
+  - buttons:
+    - payload: How does Shower Filter & Shower Head works
+      title: How does Shower Filter & Shower Head Filter works
+    - payload: Life of Cartridge
+      title: Cartridge Life
+    - payload: Installation Procedure
+      title: Installation
+    - payload: Refund & Return Policy
+      title: Refund, Return & Replacement
+    - payload: how does the washing machine filter works
+      title: Washing Machine Filter
+    - payload: Issue with product
+      title: Order Issues
+    - payload: Manufacture details
+      title: Where is it Made from
+    - payload: Products that we currently sell
+      title: What are the Product Available
+    - payload: Cost of Products
+      title: Cost of Products
+    - payload: Details of Gaurantee
+      title: Gaurantee Details
+    text: Hi, I am here to help you. Let me know if you have any concerns regarding,
+      Cartridge Life, Gaurantee details, Installation, order related problems, product
+      details, refund and returns, & product usage.
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
