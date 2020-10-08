@@ -1,3 +1,11 @@
+## intent:Back_to_Button_Options
+- Bring me Back to menu
+- Show me the options
+- take me back
+- where are the options
+- show me the FAQ
+- Back to Options
+
 ## intent:product_details_&_how_it_works_&_working_principle
 - tell me about shower filter
 - how does it work
@@ -82,6 +90,7 @@
 - I dont find much difference in my water quality after using the shower filter.
 - It seems like the pressure in my shower has drastically decreased after fitting the shower filter.what should i do?
 - the product is not working i need my money back
+- Issue with product
 - I have a problem with shower filter....
 - the washing machine filter is not working properly
 - i have bought a shower filter 2 months before it is not working now. What should I do
@@ -114,6 +123,7 @@
 - is the products made in India
 - is it made in India
 - is the product imported
+- Manufacture details
 - is the product manufactured here.
 - where is purifit shower filter made
 - where is the filter made
@@ -125,6 +135,7 @@
 - tell me your products
 - what all products you offer
 - what are the products
+- Products that we currently sell
 - what all can i buy from here
 - which products do you have
 - How many types of water filters do you have?
@@ -134,6 +145,7 @@
 - what's the cost of shower filter
 - cost of washing machine filter
 - price of shower head 
+- cost of products
 - how much I have to pay for shower filter
 - how much does the product cost
 - how costly is the produc
@@ -149,6 +161,7 @@
 - Is there any certifiaction for shower filter
 - any certification for washing machine filter
 - Does it have vitamin c beads?
+- Certifications & Ingredients Used
 
 ## intent:can_the_product_used_for_drinking
 - can it be used for drinking
@@ -208,6 +221,7 @@
 - I want to register for [guarantee](gaurantee_details)
 - do you have [warantee](gaurantee_details) for cartridge?
 - [warantee](gaurantee_details) details share
+- Details of Gaurantee
 
 ## intent:thanks
 - thankyou
