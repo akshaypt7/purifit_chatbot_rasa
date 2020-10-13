@@ -1,4 +1,5 @@
 intents:
+  - Contact_form
   - Back_to_Button_Options
   - product_details_&_how_it_works_&_working_principle
   - how_do_i_know_it_works
@@ -39,6 +40,22 @@ slots:
     type: text
 
 responses:
+  utter_contact_form:
+  - text: "Please contact us by visiting this page - https://purifit.in/contact-us/"
+    buttons:
+    - title: "Cartridge Life"
+      payload: "Life of Cartridge"      
+    - title: "Installation"
+      payload: "Installation Procedure"  
+    - title: "Refund, Return & Replacement"
+      payload: "Refund & Return Policy"          
+    - title: "Where is it Made from"
+      payload: "Manufacture details"    
+    - title: "Cost of Products"
+      payload: "Cost of Products"      
+    - title: "Go Back to Options"  
+      payload: "Back to Options"      
+
   utter_product_details_&_how_it_works_&_working_principle:
   - text: "The Shower Filter & Shower Head Filter is used to remove Chlorine and reduce the effects of hardwater on hair and skin. The layers inside the filter reacts with Calcium and Magnesium salts, making it soluable in water. This make sures that these salts wont get attached to your hair and skin and is washed away along with the water. This give you a much better bathing experience. Please Note: There are many reasons for Hairfall and Dandruff, such as environment, lack of vitamins and nutrients, heredity etc. Purifit Filter helps to improve the quality of the water you bath in"
     buttons:
@@ -70,7 +87,7 @@ responses:
       payload: "Installation Procedure"        
     - title: "Where is it Made from"
       payload: "Manufacture details"
-    - title: "What are the Product Available"
+    - title: "Products list"
       payload: "Products that we currently sell"      
     - title: "Cost of Products"
       payload: "Cost of Products"
@@ -84,6 +101,8 @@ responses:
   utter_refund,return_&_replacement:
   - text: "You can return the product for refund or replacement upon 10 days of purchase. You are required to sent the product to us. If you observe any manufacturing defect after 10 months, you are still eligible to return the product. For more details contact care@purifit.in "  
     buttons:
+    - title: "Contact us"
+      payload: "Contact Details"  
     - title: "Go Back to Options"  
       payload: "Back to Options"   
   
@@ -104,7 +123,7 @@ responses:
       payload: "Issue with product"        
     - title: "Where is it Made from"
       payload: "Manufacture details"
-    - title: "What are the Product Available"
+    - title: "Products List"
       payload: "Products that we currently sell"      
     - title: "Cost of Products"
       payload: "Cost of Products"
@@ -122,7 +141,7 @@ responses:
       payload: "Refund & Return Policy"       
     - title: "Where is it Made from"
       payload: "Manufacture details"
-    - title: "What are the Products Available"
+    - title: "Products List"
       payload: "Products that we currently sell"      
     - title: "Cost of Products"
       payload: "Cost of Products"
@@ -136,24 +155,44 @@ responses:
   utter_problems:
   - text: "We really regret the inconvience caused to you. We will try our best to solve this issue for you. Please share your concern to this emailid: care@purifit.in . If applicable include your order details as well"  
     buttons:
+    - title: "Contact us"
+      payload: "Contact Details"        
+    - title: "Gaurantee Details"
+      payload: "Details of Gaurantee" 
+    - title: "Certifications & Ingredients Used"
+      payload: "Certifications & Ingredients Used"    
     - title: "Go Back to Options"  
       payload: "Back to Options" 
 
   utter_build_material:
   - text: " The products are all build of premium quality ABS plastic with Chrome Finish (not applicable for washing machine)."  
     buttons:
+    - title: "Gaurantee Details"
+      payload: "Details of Gaurantee" 
+    - title: "Certifications & Ingredients Used"
+      payload: "Certifications & Ingredients Used"    
     - title: "Go Back to Options"  
       payload: "Back to Options" 
 
   utter_discount:
   - text: "Unfortunately, we do not have offers or coupons at this moment. But you can purchase the products at the lowest price from our website "
     buttons:
+    - title: "Where is it Made from"
+      payload: "Manufacture details"
+    - title: "Products List"
+      payload: "Products that we currently sell"      
+    - title: "Cost of Products"
+      payload: "Cost of Products"    
     - title: "Go Back to Options"  
       payload: "Back to Options" 
   
   utter_where_is_it_made:
   - text: "All the products are assembled in India, we import the media that is needed for filtration from Taiwan & Hong Kong."
     buttons:
+    - title: "Gaurantee Details"
+      payload: "Details of Gaurantee" 
+    - title: "Certifications & Ingredients Used"
+      payload: "Certifications & Ingredients Used"   
     - title: "Go Back to Options"  
       payload: "Back to Options"   
   
@@ -200,7 +239,7 @@ responses:
       payload: "Issue with product"        
     - title: "Where is it Made from"
       payload: "Manufacture details"
-    - title: "What are the Product Available"
+    - title: "Products List"
       payload: "Products that we currently sell"      
     - title: "Gaurantee Details"
       payload: "Details of Gaurantee" 
@@ -226,7 +265,7 @@ responses:
       payload: "Issue with product"        
     - title: "Where is it Made from"
       payload: "Manufacture details"
-    - title: "What are the Product Available"
+    - title: "Products List"
       payload: "Products that we currently sell"      
     - title: "Gaurantee Details"
       payload: "Details of Gaurantee"    
@@ -238,43 +277,47 @@ responses:
   utter_can_the_product_used_for_drinking:
   - text: "The products cannot be used for drinking, eventhough we use food garde filtration media. The product is not designed to purify water but to filter chlorine and reduce effects of hard-water on hair and skin"
     buttons:
+    - title: "Where is it Made from"
+      payload: "Manufacture details"
+    - title: "Products List"
+      payload: "Products that we currently sell"      
+    - title: "Gaurantee Details"
+      payload: "Details of Gaurantee"       
     - title: "Go Back to Options"  
       payload: "Back to Options" 
 
   utter_where_can_i_buy_the_product:
   - text: "You can purchase the products from Website or from Amazon and Flipkart. Buying from the website assures you of any hassles that you face from amazon and flipkart. Also for a limited period of time, we are offering the products at a discounted price"  
     buttons:
+    - title: "How does Shower Filter & Shower Head Filter works"
+      payload: "How does Shower Filter & Shower Head works"
+    - title: "Cartridge Life"
+      payload: "Life of Cartridge"      
+    - title: "Installation"
+      payload: "Installation Procedure" 
     - title: "Go Back to Options"  
       payload: "Back to Options" 
 
   utter_how_can_i_help:
   - text: "Hi, I am here to help you. Let me know if you have any concerns regarding, Cartridge Life, Gaurantee details, Installation, order related problems, product details, refund and returns, & product usage."
     buttons:
-    - title: "How does Shower Filter & Shower Head Filter works"
+    - title: "Shower Filter & Shower Head"
       payload: "How does Shower Filter & Shower Head works"
     - title: "Cartridge Life"
       payload: "Life of Cartridge"      
     - title: "Installation"
       payload: "Installation Procedure"  
+    - title: "Contact us"
+      payload: "Contact Details"        
     - title: "Refund, Return & Replacement"
       payload: "Refund & Return Policy"
     - title: "Washing Machine Filter"
-      payload: "how does the washing machine filter works"      
-    - title: "Order Issues"
-      payload: "Issue with product"        
-    - title: "Where is it Made from"
-      payload: "Manufacture details"
-    - title: "What are the Product Available"
+      payload: "how does the washing machine filter works"          
+    - title: "Products List"
       payload: "Products that we currently sell"      
-    - title: "Cost of Products"
-      payload: "Cost of Products"
     - title: "Gaurantee Details"
       payload: "Details of Gaurantee" 
-    - title: "Certifications & Ingredients Used"
-      payload: "Certifications & Ingredients Used"      
-    - title: "Filters for Drinking Purposes"
-      payload: " Shower filter & Washing Machine Filter cannot be used for drinking"             
-
+ 
   utter_back_to_options:
   - text: "Click for Details" 
     buttons:
@@ -304,6 +347,10 @@ responses:
   utter_details_of_cartridge_cost_&_puchase_link:
   - text: "The cost of shower filter cartrige is Rs.599 and for washing machine filter is Rs.499. You can purchase the product from amazon, flipkart or from Our website"
     buttons:
+    - title: "Installation"
+      payload: "Installation Procedure"  
+    - title: "Refund, Return & Replacement"
+      payload: "Refund & Return Policy"
     - title: "Go Back to Options"  
       payload: "Back to Options" 
   
@@ -313,30 +360,50 @@ responses:
   utter_ask_product_name:
   - text: "Please share the product details" 
     buttons:
+    - title: "Installation"
+      payload: "Installation Procedure"  
+    - title: "Refund, Return & Replacement"
+      payload: "Refund & Return Policy"    
     - title: "Go Back to Options"  
       payload: "Back to Options" 
 
   utter_life_of_cartridge:
   - text: "The life of cartridge for shower filter is 6 months & for washing machine is 8 months. You can purchase the product from amazon, flipkart or from Our website" 
     buttons:
+    - title: "Installation"
+      payload: "Installation Procedure"  
+    - title: "Refund, Return & Replacement"
+      payload: "Refund & Return Policy"    
     - title: "Go Back to Options"  
       payload: "Back to Options"  
   
   utter_answer_for_where_product_can_be_used:
   - text: "The product can be used for water where the temperature is between 5-60 Degree Celious. It cannot be used as a filter for drinking water"  
     buttons:
+    - title: "Installation"
+      payload: "Installation Procedure"  
+    - title: "Refund, Return & Replacement"
+      payload: "Refund & Return Policy"    
     - title: "Go Back to Options"  
       payload: "Back to Options" 
 
   utter_gaurantee_details:
   - text: "The Gaurantee of the product is for 2 years for manufacturing defect. There is not gaurantee for Cartridge"  
     buttons:
+    - title: "Installation"
+      payload: "Installation Procedure"  
+    - title: "Refund, Return & Replacement"
+      payload: "Refund & Return Policy"  
+    - title: "Contact us"
+      payload: "Contact Details"          
     - title: "Go Back to Options"  
       payload: "Back to Options" 
 
   utter_sorry_didn't_understand:
   - text: "Please rephrase your question, I think what you are asking his out of scope for me. You can contact the customer care at care@purifit.in"  
     buttons:
+    - title: "Contact us"
+      payload: "Contact Details"        
     - title: "Go Back to Options"  
       payload: "Back to Options" 
 
@@ -346,7 +413,7 @@ responses:
   utter_greet:
   - text: "Hi, I am here to help you. Let me know if you have any concerns regarding, Cartridge Life, Gaurantee details, Installation, order related problems, product details, refund and returns, & product usage."
     buttons:
-    - title: "How does Shower Filter & Shower Head Filter works"
+    - title: "Shower Filter & Shower Head"
       payload: "How does Shower Filter & Shower Head works"
     - title: "Cartridge Life"
       payload: "Life of Cartridge"      
@@ -355,21 +422,13 @@ responses:
     - title: "Refund, Return & Replacement"
       payload: "Refund & Return Policy"
     - title: "Washing Machine Filter"
-      payload: "how does the washing machine filter works"      
-    - title: "Order Issues"
-      payload: "Issue with product"        
-    - title: "Where is it Made from"
-      payload: "Manufacture details"
-    - title: "What are the Product Available"
+      payload: "how does the washing machine filter works"   
+    - title: "Contact us"
+      payload: "Contact Details"               
+    - title: "Products List"
       payload: "Products that we currently sell"      
-    - title: "Cost of Products"
-      payload: "Cost of Products"
     - title: "Gaurantee Details"
-      payload: "Details of Gaurantee" 
-    - title: "Certifications & Ingredients Used"
-      payload: "Certifications & Ingredients Used"      
-    - title: "Filters for Drinking Purposes"
-      payload: " Shower filter & Washing Machine Filter cannot be used for drinking"       
+      payload: "Details of Gaurantee"     
     
   utter_cheer_up:
   - text: "Here is something to cheer you up:"

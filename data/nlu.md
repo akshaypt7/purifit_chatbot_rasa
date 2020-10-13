@@ -1,3 +1,12 @@
+## intent:Contact_form
+- Contact us
+- I want to contact the team
+- customer care service
+- email details
+- please share your contact details
+- Contact Details
+- contact form
+
 ## intent:Back_to_Button_Options
 - Bring me Back to menu
 - Show me the options

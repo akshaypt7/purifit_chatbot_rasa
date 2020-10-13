@@ -4,7 +4,9 @@
 * what_all_products_do_you_have
   - utter_what_all_products_do_you_have
 * life_of_cartridge
-  - utter_life_of_cartridge    
+  - utter_life_of_cartridge  
+* Contact_form
+  - utter_contact_form      
 * where_to_buy_cartridge_&_cost_of_cartridge
   - utter_details_of_cartridge_cost_&_puchase_link
 
@@ -21,6 +23,8 @@
   - utter_how_do_i_know_it_works
 * Back_to_Button_Options
   - utter_back_to_options    
+* Contact_form
+  - utter_contact_form  
 
 ## new story-3, greet + does it helps in hairfall + how to install + where to use
 * greet
@@ -33,6 +37,8 @@
   - utter_back_to_options    
 * where_to_use
   - utter_answer_for_where_product_can_be_used   
+* Contact_form
+  - utter_contact_form    
 
 ## new story-4, greet + can it reduce hairfall + life of shower filter + guranutee + where to buy
 * greet
@@ -189,6 +195,12 @@
 ## happy_path_ingredients of products
 * greet
   - utter_greet
+* Contact_form
+  - utter_contact_form
+
+## happy_path_ingredients of products
+* greet
+  - utter_greet
 * ingredients_of_products
   - utter_ingredients_of_products 
 
@@ -224,12 +236,18 @@
 ## happy_path_life_of_cartridge + ask name of product
 * greet
   - utter_greet
-* life_of_cartridge{"life_of_product":"life"}
-  - utter_ask_product_name
-* inform{"product":"washing machine filter"}  
+* life_of_cartridge{"life_of_product":"life"} 
   - utter_life_of_cartridge
 * thanks
   - utter_welcome  
+
+## happy_path_life_of_cartridge + ask name of product
+* greet
+  - utter_greet
+* life_of_cartridge{"life_of_product":"life"}
+  - utter_life_of_cartridge
+* thanks
+  - utter_welcome    
 
 ## happy path ; where all the shower filter can be used
 * greet
