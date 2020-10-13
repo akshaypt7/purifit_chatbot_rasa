@@ -20,7 +20,7 @@
 * how_do_i_know_it_works
   - utter_how_do_i_know_it_works
 * Back_to_Button_Options
-  - utter_back_to_options    
+  - utter_back_to_options
 
 ## new story-3, greet + does it helps in hairfall + how to install + where to use
 * greet
@@ -32,7 +32,7 @@
 * Back_to_Button_Options
   - utter_back_to_options    
 * where_to_use
-  - utter_answer_for_where_product_can_be_used   
+  - utter_answer_for_where_product_can_be_used
 
 ## new story-4, greet + can it reduce hairfall + life of shower filter + guranutee + where to buy
 * greet
@@ -90,7 +90,7 @@
 * where_to_buy_cartridge_&_cost_of_cartridge
   - utter_details_of_cartridge_cost_&_puchase_link  
 * Back_to_Button_Options
-  - utter_back_to_options         
+  - utter_back_to_options
 
 ## story-8, Installation + refund + drinking + where to buy cartridge + ingredients + where is it made
 * installation_of_washing_filter_&_shower_filter
@@ -116,7 +116,7 @@
 * life_of_cartridge
   - utter_life_of_cartridge  
 * Gaurantee_details
-  - utter_gaurantee_details  
+  - utter_gaurantee_details
 
 ## happy_path_product_details_&_how_it_works_&_working_principle
 * greet
@@ -146,19 +146,19 @@
 * greet
   - utter_greet
 * installation_of_washing_filter_&_shower_filter
-  - utter_installation_of_washing_filter_&_shower_filter 
+  - utter_installation_of_washing_filter_&_shower_filter
 
 ## happy_problems
 * greet
   - utter_greet
 * problems
-  - utter_problems  
+  - utter_problems
 
 ## happy_path_discount
 * greet
   - utter_greet
 * build_material
-  - utter_build_material 
+  - utter_build_material
 
 ## happy_path_discount
 * greet
@@ -178,7 +178,7 @@
 * what_all_products_do_you_have
   - utter_what_all_products_do_you_have
 * thanks
-  - utter_welcome        
+  - utter_welcome
 
 ## happy_path_cost of products
 * greet
@@ -190,7 +190,7 @@
 * greet
   - utter_greet
 * ingredients_of_products
-  - utter_ingredients_of_products 
+  - utter_ingredients_of_products
 
 ## happy_path_can the product used for drinking
 * greet
@@ -203,7 +203,6 @@
   - utter_greet
 * where_can_i_buy_the_product
   - utter_where_can_i_buy_the_product
-
 
 ## happy_path_cartridge_cost_&_purchase_link
 * greet
@@ -229,7 +228,7 @@
 * inform{"product":"washing machine filter"}  
   - utter_life_of_cartridge
 * thanks
-  - utter_welcome  
+  - utter_welcome
 
 ## happy path ; where all the shower filter can be used
 * greet
@@ -237,7 +236,7 @@
 * where_to_use{"where_to_use":"hot water"}
   - utter_answer_for_where_product_can_be_used
 * thanks
-  - utter_welcome 
+  - utter_welcome
 
 ## happy path : Gaurantee Details
 * greet
@@ -245,7 +244,7 @@
 * Gaurantee_details
   - utter_gaurantee_details
 * thanks
-  - utter_welcome  
+  - utter_welcome
 
 ## path: Out of scope
 * greet
@@ -253,7 +252,7 @@
 * out_of_scope
   - utter_sorry_didn't_understand
 * out_of_scope
-  - utter_sorry_i_don't_know_i_can_help_you_with_this      
+  - utter_sorry_i_don't_know_i_can_help_you_with_this
 
 ## happy path_moodbot
 * greet
@@ -286,3 +285,28 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## New Story
+
+* greet
+    - utter_how_can_i_help
+* installation_of_washing_filter_&_shower_filter
+    - utter_installation_of_washing_filter_&_shower_filter
+* Where_is_it_made
+    - utter_where_is_it_made
+* Back_to_Button_Options
+    - utter_back_to_options
+* problems
+    - utter_problems
+* Back_to_Button_Options
+    - utter_back_to_options
+* refund,return_&_replacement
+    - utter_refund,return_&_replacement
+* Back_to_Button_Options
+    - utter_back_to_options
+* Gaurantee_details
+    - utter_gaurantee_details
+* Back_to_Button_Options
+    - utter_back_to_options
+* uses_&_of_wahing_maachine_filter
+    - utter_uses_&_of_washing_maachine_filter
